@@ -1,4 +1,4 @@
-.latest-posts-header {
+.categories-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,9 +7,15 @@
     border-bottom: 2px solid #cccccc;
 }
 
-.latest-posts-header-link {
+.categories-header-title {
+    font-size: 1.2rem;
+    letter-spacing: .8px;
+}
+
+.categories-header-link {
     text-decoration: none;
     color: inherit;
+    letter-spacing: .8px;
 }
 
 .latest-posts-container {
@@ -17,8 +23,7 @@
     flex-wrap: wrap;
     justify-content: center;
     grid-area: main-contents;
-    padding: 1rem 0;
-    margin-bottom: 50px;
+    padding: 1rem 0 0 0;
 }
 
 .latest-posts-box {
@@ -58,14 +63,14 @@
 }
 
 .latest-posts-title {
-    color: #333333;
+    color: #a09f9f;
     font-size: 1.5rem;
     grid-area: box-title;
     margin: 7px 0;
 }
 
 .latest-posts-text {
-    color: #333333;
+    color: #a09f9f;
     line-height: 1.2;
     text-align: justify;
     grid-area: box-text;
