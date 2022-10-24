@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.full-contents {
+    display: grid;
+    grid-template-areas: 
+        "header-contents"
+        "main-contents"
+        "footer-contents";
+    grid-template-columns: auto;
+    grid-template-rows: 80px auto auto;
+}
+
+.header-contents {
+    grid-area: header-contents;
+}
+
+.main-contents {
+    grid-area: main-contents;
+}
+
+.footer-contents {
+    grid-area: footer-contents;
+}
+

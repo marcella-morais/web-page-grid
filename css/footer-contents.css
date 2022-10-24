@@ -1,0 +1,26 @@
+.footer-contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fdfdfd;
+    background: #3a3a3a;
+    padding: 20px;    
+}
+
+.footer-contents-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contents-box:nth-child(2) {
+    border-left: 2px solid #fdfdfd;
+    padding-left: 90px;
+}
+
+.footer-contents-link {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
